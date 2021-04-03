@@ -1,0 +1,75 @@
+/*----------------footer-------------*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   margin-top: 25px;
+  background-color: black;
+  color: white;
+  text-align: justify;
+  column-gap: 40px;
+  column-rule: 4px;
+ column-count: 5;
+}
+/*-------------- header -------------*/
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d1e0e0;
+
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ transition: all 1s ease;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.topnav a:hover {
+  background-color: #e0e0d1;
+  color: red;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+@media screen and (min-width: 550px)
+.navbar a {
+    background:#527a7a;
+    text-align: center;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    display: inline;
+}
+@media screen and (max-width: 800px)
+.navbar a {
+    padding: 5px 5px;
+    font-size: 11px;
+    font-weight: 500;
+    width: 120px;
+    background-color:#c2d6d6;
+}
+.form {
+  float: right;
+}
